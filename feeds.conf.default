@@ -1,0 +1,3 @@
+src-git OpenWrtPackage https://github.com/ghaner/OpenWrtPackage
+src-git openwrt-packages https://github.com/kenzok8/openwrt-packages
+src-git small https://github.com/kenzok8/small
