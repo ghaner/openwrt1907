@@ -36,9 +36,9 @@
 #sed -i '$a src-git luci https://github.com/Lienol/openwrt-luci.git^db0ddd1' feeds.conf.default
 
 # 添加 lienol 大的 package
-echo 'src-git ghaner-OpenWrtPackage https://github.com/ghaner/OpenWrtPackage' >>feeds.conf.default
-echo 'src-git kenzok8-openwrt-packages https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
-echo 'src-git kenzok8-small https://github.com/kenzok8/small' >>feeds.conf.default
+echo 'src-git OpenWrtPackage https://github.com/ghaner/OpenWrtPackage' >>feeds.conf.default
+echo 'src-git openwrt-packages https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
 # 添加 luci-app-msd_lite
 #echo 'src-git msd_lite https://github.com/bigtan/luci-app-msd_lite.git' >>feeds.conf.default
